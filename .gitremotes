@@ -1,4 +1,4 @@
 openwrt-master	https://github.com/openwrt/openwrt.git (fetch)
 openwrt-master	https://github.com/openwrt/openwrt.git (push)
-origin	git@github.com:rtsmith134/openwrt.git (fetch)
-origin	git@github.com:rtsmith134/openwrt.git (push)
+rtsmith134	git@github.com:rtsmith134/openwrt.git (fetch)
+rtsmith134	git@github.com:rtsmith134/openwrt.git (push)
