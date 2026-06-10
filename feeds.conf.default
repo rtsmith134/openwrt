@@ -1,5 +1,5 @@
 # add your custom package feeds here
-src-git openwrt_addons git@github.com:rtsmith134/openwrt_addons;24.10
+src-git openwrt_addons https://github.com/blackbike-dev/openwrt_addons.git;24.10
 src-git packages https://git.openwrt.org/feed/packages.git^f1470815f41fe199bfdafe9a91ad115bc2e91203
 src-git luci https://git.openwrt.org/project/luci.git^75e41cba5160281b2d1dca922719efef29f7ffd8
 src-git routing https://git.openwrt.org/feed/routing.git^3eb59e9471858c83891979793f1dd29cca156919
