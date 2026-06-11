@@ -36,7 +36,7 @@ for i in ${patchdir}/${patchpattern} ; do
     esac
     [ -d "${i}" ] && echo "Ignoring subdirectory ${i}" && continue	
     echo ""
-    echo "Applying ${i} using ${type}: " 
+    echo "patch-kernel.sh Applying ${i} using ${type}: to targetdir -d ${targetdir}"
     ${uncomp} ${i} | ${PATCH:-patch} -f -p1 -d ${targetdir}
     if [ $? != 0 ] ; then
         echo "Patch failed!  Please fix $i!"
